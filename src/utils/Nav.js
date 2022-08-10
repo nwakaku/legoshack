@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import logo from '../images/celo.png';
 import UAuth from '@uauth/js';
 
-const uauth = new UAuth({
+const uauth = new UAuth(
+  {
     clientID: "20e4245a-f46a-40b1-b6dc-d8a8fb529a58",
-    redirectUri: "http://localhost:3000",
+    redirectUri: "https://legoshack.vercel.app/",
     scope: "openid wallet"
-  })
+  }
+)
 
 
 

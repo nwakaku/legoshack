@@ -37,7 +37,7 @@ const Body = ({setAnimate, animate}) => {
     setPopUp(!popUp)
   }
 
-  const [popUp, setPopUp] = useState(false);
+  const [popUp, setPopUp] = useState(true);
 
   console.log(info);
 
