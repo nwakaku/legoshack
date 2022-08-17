@@ -1,10 +1,10 @@
 # Project Name
 
-Transak With Unstoppable Domain
+CryptoPunk With Unstoppable Domain
 
 ## Link to working code in a public repo
 
-https://trasak-project.vercel.app/
+https://legoshack.vercel.app/
 
 ### Recorded video demo of the integration (max. 3 mins)
 
