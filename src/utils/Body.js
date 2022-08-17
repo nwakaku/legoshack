@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import person from '../images/person.png';
 import axios from "axios";
 
@@ -39,7 +39,7 @@ const Body = ({setAnimate, animate}) => {
 
   const [popUp, setPopUp] = useState(true);
 
-  console.log(info);
+  // console.log(info);
 
 
   return (
@@ -77,7 +77,7 @@ const Body = ({setAnimate, animate}) => {
 
             </div>
           </div> : 
-          <p>user does not exit....</p>}
+          <p>please wait user is loading or user does not exit....</p>}
           {/* {hashes.length !== 0 ? 
           (<p> {hashes} </p>) : 
           (<p>Loading Please be patient</p>)} */}
